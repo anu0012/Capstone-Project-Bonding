@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_forum"
+            android:icon="@android:drawable/stat_notify_chat"
+            android:title="@string/menu_item_forum"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_upload"
+            android:icon="@android:drawable/stat_sys_upload"
+            android:title="@string/menu_item_upload" />
+        <item
+            android:id="@+id/nav_download"
+            android:icon="@android:drawable/stat_sys_download"
+            android:title="@string/menu_item_download" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@android:drawable/sym_action_chat"
+            android:title="@string/menu_item_chat"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_book"
+            android:icon="@android:drawable/btn_star_big_off"
+            android:title="@string/menu_item_bookshare" />
+
+        <item
+            android:id="@+id/nav_booksList"
+            android:title="@string/description_books_list"
+            android:icon="@android:drawable/ic_menu_search" />
+
+        <item
+            android:id="@+id/nav_news"
+            android:title="@string/menu_item_news"
+            android:icon="@android:drawable/ic_menu_agenda" />
+
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@android:drawable/ic_menu_revert"
+            android:title="@string/menu_item_signout" />
+
+    </group>
+
+    <item android:title="@string/more">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_item_share" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@android:drawable/ic_delete"
+                android:title="@string/menu_item_exit" />
+        </menu>
+    </item>
+
+</menu>

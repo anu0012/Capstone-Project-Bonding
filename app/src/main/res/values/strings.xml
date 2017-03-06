@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Bonding</string>
+    <string name="title_activity_home">Discussion Forum</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="action_settings">Settings</string>
+    <string name="no_files">No Files Found</string>
+    <string-array name="branch_arrays">
+        <item>Electrical Engineering</item>
+        <item>Information Technology</item>
+        <item>Civil</item>
+        <item>Mechanical</item>
+        <item>Computer Science</item>
+        <item>ECE</item>
+        <item>Chemical</item>
+        <item>Applied Mathematics</item>
+        <item>Other</item>
+    </string-array>
+    <string name="branch_prompt">Electrical</string>
+    <string name="auth_failed">Authentication Failed</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="empty_list">No Data</string>
+    <string name="empty_news">No news found</string>
+    <string name="description_discussion_list">Discussion List</string>
+    <string name="description_books_list">Books List</string>
+    <string name="description_download_list">Download List</string>
+    <string name="news_category">Category: </string>
+    <string name="news_contributors">Contributors: </string>
+    <string name="home_overflow_refresh">Refresh</string>
+
+    <!-- Nav Menu Items -->
+    <string name="menu_item_forum">Forum</string>
+    <string name="menu_item_upload">Upload</string>
+    <string name="menu_item_download">Download</string>
+    <string name="menu_item_chat">Chat</string>
+    <string name="menu_item_bookshare">Share a book</string>
+    <string name="menu_item_signout">Sign Out</string>
+    <string name="menu_item_booklist">Books List</string>
+    <string name="menu_item_news">News</string>
+    <string name="menu_item_share">Share</string>
+    <string name="menu_item_exit">Exit</string>
+
+    <!-- Book Share Activity -->
+    <string name="text_bookname">Book Name</string>
+    <string name="text_owner">Your Name</string>
+    <string name="text_quantity">Quantity</string>
+    <string name="text_hostel">Hostel Name/Number</string>
+    <string name="text_roomNo">Your Room Number</string>
+    <string name="text_contacts">Your Contact Number</string>
+
+    <string name="comment_hint">Comment...</string>
+    <string name="submit">Submit</string>
+    <string name="upload_book_text_header">Upload the details</string>
+    <string name="description_widget_item_textview">Discussion Title</string>
+    <string name="topic_text">Topic</string>
+    <string name="description_text">Description</string>
+    <string name="button_upload">Upload</string>
+    <string name="hint_filename">File Name</string>
+    <string name="nav_username">Username</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Register</string>
+    <string name="startscreen_text_1">New User ? Register Here</string>
+    <string name="startscreen_text_2">Already Registered? Login Here </string>
+    <string name="more">More</string>
+
+    <!-- Toast -->
+    <string name="toast_books_failed_to_load">Failed to load books.</string>
+    <string name="toast_comments_failed_to_load">Failed to load comments.</string>
+    <string name="toast_files_failed_to_load">Failed to load files.</string>
+    <string name="toast_empty_fields">Please fill the required field</string>
+    <string name="toast_sent">Sent</string>
+    <string name="toast_downloading">Downloading...</string>
+    <string name="toast_downloaded">Downloaded</string>
+    <string name="toast_signout">Signed Out</string>
+    <string name="toast_loading">Data loading</string>
+    <string name="toast_valid_email">Enter valid email address!</string>
+    <string name="toast_valid_password">Password too short, enter minimum 6 characters!</string>
+    <string name="toast_empty_password">Enter password!</string>
+    <string name="toast_registered">Successfully Registered</string>
+    <string name="toast_submitted">Details Submitted</string>
+    <string name="toast_filename_req">Enter file name</string>
+    <string name="toast_successfully_upload">Uploaded Successfully</string>
+
+</resources>
